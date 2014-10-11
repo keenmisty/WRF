@@ -1,4 +1,6 @@
 WRF
 ===
 
-learn the Weather Research and Forecasting Model
+learnning the Weather Research and Forecasting Model
+
+this is a note for me.
