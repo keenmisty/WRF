@@ -3,7 +3,15 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/wrf/WRFUserARW.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/cnmap/cnmap.ncl"
 
 begin
-;******************************************************************
+
+;*************************************************************************
+;*                                                                       *
+;*                                                                       *
+;*  This is the script to draw the surface wind,T,SLP simulation results *
+;*                                                                       *
+;*                                                                       *
+;*************************************************************************
+
 ; change the wrf-output dir & name here. by changming           
   if (.not.isvar("wrfoutdir")) then
   wrfoutdir = "result/wrf-output/"
