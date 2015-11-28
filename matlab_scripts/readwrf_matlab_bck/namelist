@@ -1,0 +1,132 @@
+%----------wrfout path
+wrfoutPATH     =/public/home/zhangxz/model/WRFV35/test/brz_2005/wout/
+wrfout_namepre =wrfout_d01
+output_file    =/public/home/zhangxz/mywork/LUCC_BRZ/dataset/BRZ2005_monthly_XXXX.nc
+% put out frequency (unit: days; three freq are available: 1, 15, 30)
+putout_freq    = 30
+starttime      = XXXX  01
+endtime        = XXXX  12
+%----------var_list
+%========================= surface variables
+ LAI
+ VEGFRA 
+% ALBBCK   
+% ALBEDO   
+ EMISS   
+ T2   
+ TH2   
+ Q2
+ PSFC
+ U10
+ V10
+ RAINC
+%RAINSH
+ RAINNC
+ SNOWNC
+% GRAUPELNC
+%HAILNC
+%SEAICE
+SFROFF
+UDROFF
+SNOW
+SNOWH
+CANWAT
+ALBEDO
+PBLH
+HFX
+QFX
+LH
+ACHFX
+ACLHF
+ACGRDFLX
+%SIBBR 
+% SIBEGS
+%SIBECI
+%SIBECT
+%SIBEGI
+%SIBEGT
+%SIBSHC
+%SIBSHG
+%SIBLAI
+%SIBVCF
+%SIBZ00
+%SIBVEG
+%========================= from NoahMP model
+TV
+TG
+CM
+CH
+QSNOWXY
+ZWT
+WA
+WT
+T2V
+T2B
+Q2V
+Q2B
+TRAD
+FVEG
+QIN
+RUNSF
+RUNSB
+ECAN
+EDIR
+ETRAN
+FSA
+FIRA
+APAR
+SAV
+SAG
+RSSUN
+RSSHA
+CHV2
+%========================= surface radiation budget
+%SWDOWN
+%SWNORM
+ACSWDNT
+ACSWDNTC
+ACSWUPT
+ACSWUPTC
+ACSWDNB
+ACSWDNBC
+ACSWUPB
+ACSWUPBC
+SWDNB
+SWDNBC
+SWUPB
+SWUPBC
+%SIBSUP
+%GLW
+ACLWDNT
+ACLWDNTC
+ACLWUPT
+ACLWUPTC
+ACLWDNB
+ACLWDNBC
+ACLWUPB
+ACLWUPBC
+LWDNB
+LWDNBC
+LWUPB
+LWUPBC
+%SIBLUP
+%OLR
+%========================= 3-D atmospheric variables
+TC
+%THETA
+%% TD   
+RH   
+Z   
+P   
+ U   
+ V   
+ W
+QVAPOR   
+ QRAIN   
+ QCLOUD   
+CLDFRA 
+%======================== soil variables
+SMOIS
+%SIBWAT
+SH2O   
+SMCREL   

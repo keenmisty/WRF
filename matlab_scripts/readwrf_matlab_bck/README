@@ -1,0 +1,16 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% copy right @ IGSNRR/CAS                                    %
+% developer: Dr. Xuezhen Zhang                               %
+% http://hydro.igsnrr.ac.cn/personnel/xuezhen.html           %
+% http://hydro.igsnrr.ac.cn/english/personnel/xuezhen.html   %
+% question/suggestion contact:  xzzhang@igsnrr.ac.cn         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Version: 1.0 (2014, 07, 01)
+%
+%
+%
+The main function is "read_wrfout.m"
+%
+any parameters are set in the namelist
+The variables with the begin '%' will not be processed
