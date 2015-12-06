@@ -24,10 +24,3 @@ end
 
 if rh > 100; rh=100; end
 if rh<0; rh=0.; end
-
-
-
-
-
-
-
