@@ -8,7 +8,7 @@ function [rh]=CalRH(t,qv,pres,opt)
 %      [rh]=CalRH(t,qv,pres,opt)
 %
 %Designed by Zhiyong Wu, Jan 2013
-
+%
 switch (opt)
     case {1},    
         e=pres.*qv./(0.622+qv);
