@@ -2,6 +2,7 @@ try
     % Main block
 clear
 clc
+% calculate variables from NoahMP results
 cd ('/ees/eeswxm/chang/Noah/arizona/NCAR_noahmp/test_dveg/result')
 load ext_heats1.mat
 fcev1=fcev;
