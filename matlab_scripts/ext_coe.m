@@ -2,6 +2,9 @@ try
     % Main block
 clear
 clc
+% 
+% to get out the coefficients from noah-mp outputs
+%
 %st=1;
 %st=13825;
 %st=27649;
