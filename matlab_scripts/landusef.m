@@ -1,4 +1,5 @@
 %在集群上提取数据
+% created by shaofen, edited by chang
 clear
 clc
 filename='/ees/users/EMG/ees2/shaofen/useful/domain/geo_em.d03.modis2usgs.nc';
